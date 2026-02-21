@@ -1,29 +1,3 @@
-"""
-═══════════════════════════════════════════════════════════════════════════
- Stories Coffee — Profit & Menu Optimisation Dashboard
- Version 1.0 | Future-Proof Design (no hardcoded paths)
-═══════════════════════════════════════════════════════════════════════════
-
-HOW TO RUN (first time):
-  1. Install dependencies:
-       pip install streamlit pandas numpy plotly scikit-learn openpyxl
-
-  2. Launch the app:
-       streamlit run stories_dashboard.py
-
-HOW TO USE EACH MONTH:
-  - Upload your 4 CSV exports in the left sidebar (same file formats, any date).
-  - The app auto-detects branches, months, and products — zero code changes needed.
-
-REQUIRED FILES (upload in sidebar):
-  ┌─────────────────────────────────────────────────────────────────────┐
-  │ File 1 – Monthly Sales   : REP_S_00134_SMRY.csv                    │
-  │ File 2 – Product Profit  : rep_s_00014_SMRY.csv                    │
-  │ File 3 – Sales by Group  : rep_s_00191_SMRY-3.csv                  │
-  │ File 4 – Category Profit : rep_s_00673_SMRY.csv                    │
-  └─────────────────────────────────────────────────────────────────────┘
-"""
-
 import io
 import warnings
 
